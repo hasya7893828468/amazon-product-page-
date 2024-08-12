@@ -1,0 +1,406 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.main-container{
+    height: 400%;
+    width: 1200px;
+   display: flex;
+   position: absolute;
+}
+.main-image{
+    width: 45%;
+    
+    top: 0;
+    right: 10px;
+  position: relative;
+}
+.main-image .image-box{
+ height: 452px;
+ width: 380px;
+ background-color: white;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+position: absolute;
+
+ 
+
+}
+.image-box{
+    
+
+top:20 ;
+right:20px;
+}
+.image-box i{
+ position: absolute;
+ top: 40px;
+ right: 20px;
+ font-size: 14px;
+}
+.image-box img{
+ height: 90%;
+ position: absolute;
+}
+.image-box p{
+    position: absolute;
+    bottom: -10px;
+    font-size: 12px;
+    color: #565959;
+
+   
+
+}
+
+
+
+/* ----------------------------------------box2 */
+.product-content{
+    margin-top: 40px;
+    padding: 20px;
+    width:450px;
+    position: relative;
+}
+.product-content .box-heading1 {
+    height: 126px;
+    width: 460px;
+    font-size: 24px;
+     
+    
+}
+.color{
+    color: orange;
+}
+.box-b1{
+ height: 16px;
+ width: 151px;
+ font-size: 12px;
+ color:#007185;
+}
+
+.fivestar {
+    height: 17px;
+    width: 100%;
+    font-size: 12px;
+}
+.fivestar span{
+   margin: 0 10px;
+    font-size:12px ;
+    color: #007185;
+}
+.product-content .choice{
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    height:22px ;
+    width:100px ;
+    font-size: 12px;
+    background-color: black;   
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.choice .triangle{
+    height: 22px;
+    width: 20px;
+    background: linear-gradient(to top left, #fff 0%, #fff 50%, black 50%, black 100%);
+
+}
+.k2{
+    height: 15px;
+    width: 144px;
+    font-size: 12px;
+    color: #0b0c0c;
+    margin-top: 10px;
+}
+.price{
+    height:35px ;
+    width: 245px;
+    color: #0f1111 ;
+    font-size:14px ;
+    margin:10px 0;
+}
+.price .num30{
+    font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  color: #cc0c39;
+  font-weight: 200;
+  
+}
+.price .rate sup{
+    font-size: 13px;
+    font-family:none;
+
+  
+}
+.price .rate{
+    font-family: "Poppins",sans-serif;
+    font-size: 28px;
+}
+.mrp {
+
+   height:20 ;
+   width: 145px;
+   font-size: 12px;
+   color: #565959;
+   margin: 10px 0 ;
+}
+.mrp .line{
+    text-decoration: line-through;
+    margin-left:  5px;
+    
+}
+.a-logo{
+    height: 18px;
+    width: 67px;
+    font-size: 12px;
+    background-color: #3E4650;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px 0;
+}
+.emi{
+    font-size: 14px;
+    margin: 5px 0;
+  
+}
+.emi span{
+    height: 37px;
+    width: 201px;
+    font-weight: 200;
+}
+.emi .emi-1{
+    color: #007185;
+}
+.color1{
+    color: #007185;
+}
+.font14{
+    font-size: 14px;
+}
+ .emi i{
+   
+    font-size: 8px;
+    
+ }
+
+ .lg{
+    background-color: #ff9900;
+    color: #000000;
+    padding: 2px 6px;
+    margin-right: 20px;
+    
+
+ }
+ .label input{
+    margin-right: 10px;
+  
+ }
+ .offer{
+    margin-top: 15px;
+ }
+ .offer img{
+   height: 24px;
+  
+   
+ }
+  .offer span b{
+    margin :10px;
+    
+  }
+  .emiemi{
+    display: flex;
+  }
+  
+  .emi-box{
+   align-items: left;
+    
+    height: 118px;
+    width: 154px;
+  
+        background-color: white; 
+        border-radius: 10px; 
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+        margin: 20px; 
+        text-align: center; 
+    
+   font-size: 14px;
+    align-items:left;
+  }
+  .cont{
+overflow: auto;
+
+  }
+ .font12{
+    font-size: 12px;
+ }
+  .icons{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+   
+  }
+  .icons span{
+   
+  }
+  .icons img{
+    height: 35px;
+    
+  }
+  .li ul h1{
+    font-size: 15px;
+}
+  
+.li ul li {
+    font-size: 14px;
+
+}
+.side-bar
+{
+    height: 50%;
+    width: 50vh;
+    float:right;
+     top: 0;
+    right: 5px;
+  position: relative;
+}
+.side-bar{
+    height:100% ;
+    width: 242px;
+    /* border: 1px solid black; */
+    
+}
+.box-3{
+    
+    margin-top: 50px;
+    background-color: #f3f3f3;
+    padding:10px 18px;
+   
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+
+    
+}
+.exchange{
+    height:100% ;
+    width: 242px; 
+}
+.exchange i{
+ margin-left: 100px;
+}
+.box-3-1{
+    padding:10px 0 10px 20px;
+
+}
+.box-3 span{
+    margin-top: 10px;
+    color: #b12704;
+    font-size: 14px;
+}
+.exchange2{
+    height:100% ;
+    width: 242px; 
+}
+.exchange2 i{
+ margin-left: 75px;
+}
+.box-3-1 span{
+    margin-top: 10px;
+    color: #b12704;
+    font-size: 14px;
+}
+.box-3-1 .price1{
+    text-decoration: line-through;
+    color: #565959;
+}
+.loo{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+ .box-3-2{
+ height: 77px;
+ width: 204px;
+ font-family: sans-serif;
+    margin-left: 20px;
+    line-height: 20px;
+}
+.box-3-3{
+    height: 36px;
+    width: 100%px;
+    display: flex;
+    align-items: center;
+    margin-top:10px ;
+
+}
+.box-3-3 i {
+   height: 14px;
+   width: 15px;
+   margin: 0 10px 0 10px;
+
+}
+.box-3-4{
+    margin: 20px 0 10px 20px;
+    font-size: 18px;
+    color: #007600;;
+}
+
+.box-3-5{
+margin-left: 20px;
+color: #565959;
+}
+.box-3-5 .c{
+margin-right: 10px;
+}
+.box-3-5 .c1{
+position: relative;
+}
+
+.box-3-5 .c1 .span{
+    margin-right: 10px;
+}
+.box-3-5 .c1 .div2{
+ height: 60px;
+ width: 100px;
+ position: absolute;
+ top: 0;
+ right: 50px;
+}
+.box-3-6{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.button{
+    margin:10px 20px;
+    
+}
+.btn1{
+height:30px ;
+width: 205px;
+margin-bottom: 10px;
+border: none;
+padding: 5px;
+padding-bottom: 10px;
+background-color:#ffd814;
+border-radius: 20px;
+}
+.btn2{
+    height:32px ;
+    width: 205px;
+    border: none;
+    background-color:orange;
+color: #000000;
+    border-radius: 20px;
+
+}
